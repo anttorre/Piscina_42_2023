@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
+//#include <stdio.h>
 
 void	ft_rev_int_tab(int *tab, int size)
 {
@@ -27,7 +27,7 @@ void	ft_rev_int_tab(int *tab, int size)
 		size--;
 	}
 }
-
+/*
 int	main(void)
 {
 	int	arr_int[5] = {1, 2, 3, 4, 5};
@@ -46,4 +46,4 @@ int	main(void)
 	}
 	printf("]\n");
 }
-
+*/
