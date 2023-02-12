@@ -1,0 +1,23 @@
+Compilación C es un lenguaje de programación de propósito general, ampliamente utilizado para la creación de sistemas operativos, aplicaciones y videojuegos.
+
+Las bases del lenguaje C incluyen:
+
+1 -Variables: Una variable es un lugar en la memoria donde se almacena un valor. Cada variable tiene un nombre y un tipo de datos asociado.
+
+2-Operadores: Los operadores se utilizan para realizar operaciones matemáticas y lógicas en los valores de las variables.
+
+3-Estructuras de control de flujo: Las estructuras de control de flujo permiten a los programadores controlar el flujo de ejecución de un programa, como repetir una sección de código o tomar decisiones basadas en condiciones.
+
+4-Funciones: Las funciones son bloques de código reutilizables que realizan una tarea específica.
+
+5-Arrays: Los arreglos son estructuras de datos que permiten almacenar múltiples valores del mismo tipo en una sola variable.
+
+6-Punteros: Los punteros son variables que almacenan direcciones de memoria en lugar de valores. Son útiles para acceder y manipular datos en tiempo de ejecución.
+
+7-Estructuras: Las estructuras son una forma de agrupar datos relacionados en una sola entidad.
+
+8-Archivos: C permite el manejo de archivos, lo que permite almacenar y recuperar datos en el disco duro.
+
+9-Bibliotecas: Las bibliotecas son conjuntos de funciones y estructuras que se pueden reutilizar en múltiples programas. C cuenta con muchas bibliotecas estándar, como la biblioteca estándar de C (stdlib.h) y la biblioteca de entrada y salida (stdio.h).
+
+10-Compilación: C es un lenguaje compilado, lo que significa que el código fuente se traduce a código objeto antes de ejecutarse. Esto significa que el código se ejecuta más rápido, pero también requiere un proceso adicional antes de ejecutar el programa.

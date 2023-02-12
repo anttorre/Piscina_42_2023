@@ -1,0 +1,70 @@
+Las funciones en C son fragmentos de código que realizan una tarea específica y pueden ser reutilizadas en diferentes partes de un programa. Una función se define con un nombre y puede aceptar cero o más argumentos, y puede o no retornar un valor.
+
+El propósito de utilizar funciones es separar el código en bloques más pequeños y manejables, lo que hace más fácil la depuración y el mantenimiento del código.
+
+Aquí hay un ejemplo de código que utiliza una función:
+
+#include <unistd.h>
+
+void imprimir_mensaje(char* mensaje) {
+  write(1, mensaje, sizeof(mensaje));
+}
+
+int main() {
+  imprimir_mensaje("Hola mundo\n");
+  return 0;
+}
+
+Se incluye la biblioteca unistd.h que contiene la función write.
+
+Se define una función llamada imprimir_mensaje que acepta un argumento de tipo char*, que es un puntero a un arreglo de caracteres.
+
+Dentro de la función imprimir_mensaje, se llama a la función write que escribe en el file descriptor 1 (salida estándar), el mensaje que se le pasa como argumento y su tamaño en bytes.
+
+En la función main, se invoca a la función imprimir_mensaje y se le pasa como argumento el mensaje "Hola mundo\n".
+
+El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+Como puedes ver, las funciones te permiten reutilizar código y separarlo en bloques más pequeños y manejables.
+
+
+Otro ejemplo seria :
+
+#include <stdio.h>
+
+int max(int a, int b) {
+  if (a > b) {
+    return a;
+  } else {
+    return b;
+  }
+}
+
+int main() {
+  int num1 = 10, num2 = 5;
+  int resultado = max(num1, num2);
+  printf("El número máximo es %d\n", resultado);
+  return 0;
+}
+
+Este es un ejemplo de una función en C que calcula el máximo entre dos números
+
+
+1-Se incluye la biblioteca stdio.h que contiene la función printf.
+
+2-Se define una función llamada max que acepta dos argumentos de tipo int.
+
+3-Dentro de la función max, se compara a con b y se retorna el número mayor.
+
+4-En la función main, se definen dos variables num1 y num2 y se les asignan los valores 10 y 5, respectivamente.
+
+5-Se invoca a la función max y se le pasan las variables num1 y num2 como argumentos.
+
+6-El resultado se almacena en la variable resultado.
+
+7-Se imprime el resultado usando la función printf.
+
+8-El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+Espero haber aclarado algunas dudas y que ayude a entender un poco más de este proceso
+vuestro compañero amula-bo

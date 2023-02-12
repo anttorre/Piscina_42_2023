@@ -1,0 +1,17 @@
+Las bibliotecas en programación son conjuntos de funciones y datos previamente definidos que pueden ser utilizados en un programa para realizar tareas específicas sin necesidad de escribir el código desde cero. Por ejemplo, si desea realizar una tarea de conversión de unidades, puede incluir una biblioteca de conversión en su programa en lugar de escribir el código para realizar la conversión desde cero.
+
+Para utilizar una biblioteca en su programa, primero debe incluir un encabezado o una "cabecera" en el inicio del archivo fuente que haga referencia a la biblioteca que desea utilizar. Luego, puede llamar a las funciones de la biblioteca en su código.
+
+Un ejemplo de uso de una biblioteca en C es la biblioteca de entrada y salida estándar (stdio.h), que contiene funciones para leer y escribir datos en la consola. Para utilizar esta biblioteca, incluye el siguiente encabezado en el inicio de su archivo fuente:
+
+
+#include <stdio.h>
+
+
+Luego, puedes llamar a la función write para escribir datos en la consola de la siguiente manera
+
+write(1, "Hola, mundo!\n", 13);
+
+
+Asi el misterio de "c" deja de serlo
+vuestro compañero amula-bo

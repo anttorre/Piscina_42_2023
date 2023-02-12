@@ -1,0 +1,82 @@
+Un puntero es una variable que contiene una dirección de memoria. Puede utilizarse para acceder a los valores almacenados en esa dirección.
+
+En C, todo se almacena en la memoria del computador y cada posición de memoria tiene una dirección única. Los punteros son variables que almacenan estas direcciones de memoria.
+
+Aquí hay un ejemplo de cómo utilizar punteros para intercambiar los valores de dos variables:
+
+
+#include <stdio.h>
+
+void intercambiar(int *a, int *b) {
+  int temp = *a;
+  *a = *b;
+  *b = temp;
+}
+
+int main() {
+  int num1 = 10, num2 = 20;
+  printf("Antes del intercambio: num1 = %d, num2 = %d\n", num1, num2);
+  intercambiar(&num1, &num2);
+  printf("Después del intercambio: num1 = %d, num2 = %d\n", num1, num2);
+  return 0;
+}
+
+1-Se incluye la biblioteca stdio.h que contiene la función printf.
+
+2-Se define una función llamada intercambiar que acepta dos punteros a int.
+
+3-Dentro de la función intercambiar, se define una variable temporal temp y se almacena el valor de *a en ella.
+
+4-Se asigna el valor de *b a *a.
+
+5-Se asigna el valor de temp a *b.
+
+6-En la función main, se definen dos variables num1 y num2 y se les asignan los valores 10 y 20, respectivamente.
+
+7-Se imprimen los valores antes del intercambio usando la función printf.
+
+8-Se invoca a la función intercambiar y se le pasan las direcciones de num1 y num2 como argumentos (utilizando el operador &).
+
+9-Se imprimen los valores después del intercambio.
+
+El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+Tambien os dejo este otro ejemplo que es mas sencillo:
+
+#include <stdio.h>
+
+int main() {
+  int x = 10;
+  int *ptr;
+  ptr = &x;
+  printf("El valor de x es: %d\n", x);
+  printf("La dirección de x es: %p\n", &x);
+  printf("El valor de ptr es: %p\n", ptr);
+  printf("El valor al que apunta ptr es: %d\n", *ptr);
+  return 0;
+}
+
+
+
+1-Se incluye la biblioteca stdio.h que contiene la función printf.
+
+2-Se define una variable x y se le asigna el valor 10.
+
+3-Se define un puntero ptr que apunta a una variable de tipo int.
+
+4-Se asigna la dirección de x a ptr utilizando el operador &.
+
+5-Se imprime el valor de x usando printf.
+
+6-Se imprime la dirección de x usando printf.
+
+7-Se imprime el valor de ptr usando printf.
+
+8-Se imprime el valor al que apunta ptr utilizando el operador * y printf.
+
+9-El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+
+
+Espero que os ayude y que cada paso sea manejar mejor "c"
+vuestro compañero amula-bo

@@ -1,0 +1,46 @@
+Los archivos son una forma de almacenar información en un dispositivo de almacenamiento, como un disco duro o una unidad flash USB. En programación, podemos trabajar con archivos para guardar y leer información en un programa.
+
+Este seria un buen ejemplo:
+
+
+
+#include <stdio.h>
+
+int main() {
+  char nombre[50];
+  int edad;
+  FILE *archivo;
+  archivo = fopen("datos.txt", "w");
+  if (archivo == NULL) {
+    printf("No se pudo abrir el archivo\n");
+    return 1;
+  }
+  printf("Ingrese su nombre: ");
+  scanf("%s", nombre);
+  printf("Ingrese su edad: ");
+  scanf("%d", &edad);
+  fprintf(archivo, "Nombre: %s\n", nombre);
+  fprintf(archivo, "Edad: %d\n", edad);
+  fclose(archivo);
+  return 0;
+}
+
+
+
+1-Se incluye la biblioteca stdio.h que contiene las funciones printf y scanf.
+
+2-Se define una variable archivo que es un puntero a un archivo.
+
+3-Se abre el archivo datos.txt en modo "escritura" usando la función fopen. Si el archivo no se puede abrir, se imprime un mensaje de error y el programa termina.
+
+4-Se pide al usuario que ingrese su nombre y edad.
+
+5-Se escriben los datos en el archivo usando la función fprintf.
+
+6-Se cierra el archivo usando la función fclose.
+
+7-El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+ya solo son unos nano los que quedan para terminar esta introduccion a "c"
+vuestro compañero amula-bo
+

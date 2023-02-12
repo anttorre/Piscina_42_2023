@@ -1,0 +1,33 @@
+Hola !  
+
+este manual lo he creado expresamente para todas aquellas personas que como yo, no tienen ni idea de "c"
+
+espero que os ayude y os sirva para avanzar en este tramo de la piscina y sea vuestro flotador 
+
+
+cualquier ejemplo que veais, podeis copiarlo en un archivo vim para poder entenderlo mejor si en este nano no llegais a comprenderlo
+
+
+para los que no sepais que es vim o tengais poco conocimiento de el, os dire lo siguiente :
+
+Vim es un editor de texto en modo consola para Unix. Aquí está un manual rápido y fácil para utilizarlo:
+
+Abre Vim en la terminal: escribir "vim" seguido del nombre del archivo que deseas editar, o simplemente "vim" para crear un nuevo archivo.
+
+Modo de comandos: Vim comienza en modo de comandos, donde puedes realizar acciones como guardar, salir o buscar. Para ingresar al modo de edición, presiona "i".
+
+Modo de edición: Una vez en modo de edición, puedes escribir y editar el texto normalmente.
+
+Guardar y salir: Para salir del modo de edición y regresar al modo de comandos, presiona "Esc". Luego, para guardar los cambios y salir de Vim, escribe ":wq" y presiona "Enter".
+
+Otros comandos útiles:
+
+Para guardar sin salir: ":w"
+Para salir sin guardar: ":q!"
+Para buscar: "/" seguido de la palabra que deseas buscar.
+Para deshacer: "u"
+Para rehacer: "Ctrl + r"
+
+
+espero que os ayude, no soy un experto en "c" ni nada menos, realmente no se nada de nada, he realizado este manual usando bastante tiempo para entender videos y apuntes de los compañeros para poder crear esto,
+solo espero que os ayude a avanzar.

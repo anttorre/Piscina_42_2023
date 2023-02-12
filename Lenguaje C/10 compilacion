@@ -1,0 +1,28 @@
+La compilación es el proceso de convertir el código fuente escrito por un programador en un lenguaje de programación en un lenguaje de máquina que puede ser ejecutado por una computadora. En otras palabras, la compilación convierte el código fuente en un programa ejecutable.
+
+Para compilar un programa en C, primero debe escribir el código fuente en un editor de texto y guardarlo con una extensión .c. Luego, debe abrir una terminal o línea de comandos y navegar hasta la ubicación del archivo. Finalmente, puedes compilar el archivo usando el siguiente comando:
+
+
+gcc nombre_del_archivo.c -o nombre_del_programa
+
+
+El compilador GCC (GNU Compiler Collection) traducirá el código fuente en un programa ejecutable que puede ser ejecutado en la terminal o línea de comandos. Por ejemplo, si su archivo se llama "hola_mundo.c", el comando anterior creará un archivo ejecutable llamado "hola_mundo". Puedes ejecutar el programa con el siguiente comando:
+
+bash ./nombre_del_programa
+
+La compilación es un proceso importante porque permite a los programadores escribir código en un lenguaje de programación de alto nivel, como C, que es más fácil de leer y escribir que un lenguaje de máquina. La compilación también permite a los programadores depurar su código y corregir errores antes de ejecutar el programa.
+
+gcc -Wall -Wextra -Werror nombre.c
+
+gcc es el compilador de C en sí.
+-Wall habilita todos los avisos de compilación que ofrece el compilador GCC.
+-Wextra habilita algunos avisos adicionales que no están habilitados por defecto.
+-Werror indica al compilador que considere los avisos como errores. Esto significa que la compilación fallará si se encuentra algún aviso.
+
+norminette
+
+Para comprobar los errores en tu codigo
+
+
+
+vuestro compañero amula-bo

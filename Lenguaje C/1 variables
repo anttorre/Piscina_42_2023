@@ -1,0 +1,18 @@
+Las variables son nombres que se asignan a valores para almacenarlos y utilizarlos en un programa de computadora. Cada variable tiene un nombre único, un tipo de datos y un valor asignado.
+
+Los tipos de datos comunes en C incluyen int (entero), float (flotante), double (doble precisión), char (carácter) y bool (booleano).
+
+Por ejemplo, aquí hay un ejemplo de código en C que declara e inicializa algunas variables:
+
+
+int edad = 30;
+float altura = 1.75;
+char inicial = 'J';
+bool esMayorDeEdad = true;
+
+
+En este ejemplo, se han declarado cuatro variables: edad, altura, inicial y esMayorDeEdad. Cada una tiene un tipo de datos diferente y un valor inicial asignado
+
+
+espero que esto os ayude un poco a entender que son las variables y como funcionan
+de vuestro compañero amula-bo, suerte !!!

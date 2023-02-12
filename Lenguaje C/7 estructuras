@@ -1,0 +1,45 @@
+Las estructuras son una forma de agrupar diferentes tipos de datos en una sola unidad llamada estructura. Es útil cuando desea almacenar diferentes tipos de datos relacionados, como nombre, edad y dirección, todos relacionados con una persona.
+
+
+Un ejemplo de código de una estructura seria este:
+
+
+#include <stdio.h>
+
+struct persona {
+  char nombre[50];
+  int edad;
+  char direccion[100];
+};
+
+int main() {
+  struct persona persona1;
+  printf("Ingrese el nombre: ");
+  scanf("%s", persona1.nombre);
+  printf("Ingrese la edad: ");
+  scanf("%d", &persona1.edad);
+  printf("Ingrese la direccion: ");
+  scanf("%s", persona1.direccion);
+  printf("\nDatos de la persona:\n");
+  printf("Nombre: %s\n", persona1.nombre);
+  printf("Edad: %d\n", persona1.edad);
+  printf("Dirección: %s\n", persona1.direccion);
+  return 0;
+}
+
+
+1-Se incluye la biblioteca stdio.h que contiene las funciones printf y scanf.
+
+2-Se define una estructura llamada persona que contiene tres campos: nombre, edad y direccion.
+
+3-Se define una variable de tipo struct persona llamada persona1.
+
+4-Se pide al usuario que ingrese el nombre, la edad y la dirección y se almacenan en la estructura persona1.
+
+5-Se imprimen los datos de la persona usando printf.
+
+6-El programa termina y retorna 0, indicando que se ejecutó correctamente.
+
+espero que os ayude y que podamos avanzar más rapido
+vuestro compañero amula-bo
+

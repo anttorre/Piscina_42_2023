@@ -1,0 +1,38 @@
+Los arreglos en C son estructuras de datos que permiten almacenar varios valores del mismo tipo en una sola variable. Un arreglo se puede visualizar como una fila o columna de casillas, cada una de las cuales contiene un valor.
+
+Aquí hay un ejemplo de código que utiliza un arreglo y explicado paso a paso:
+
+
+#include <stdio.h>
+
+int main() {
+  int numeros[5]; // Declaración de un arreglo de enteros con 5 elementos
+
+  // Asignación de valores a cada elemento del arreglo
+  numeros[0] = 1;
+  numeros[1] = 2;
+  numeros[2] = 3;
+  numeros[3] = 4;
+  numeros[4] = 5;
+
+  // Impresión de cada elemento del arreglo
+  printf("El primer elemento es %d\n", numeros[0]);
+  printf("El segundo elemento es %d\n", numeros[1]);
+  printf("El tercer elemento es %d\n", numeros[2]);
+  printf("El cuarto elemento es %d\n", numeros[3]);
+  printf("El quinto elemento es %d\n", numeros[4]);
+
+  return 0;
+}
+
+En primer lugar, se incluye la biblioteca stdio.h para tener acceso a la función printf.
+
+Luego, en la función main, se declara un arreglo de enteros llamado numeros que tiene 5 elementos.
+
+A continuación, se asignan valores a cada elemento del arreglo utilizando los corchetes y un índice que va desde 0 hasta 4.
+
+Finalmente, se imprimen los valores de cada elemento del arreglo utilizando la función printf y los corchetes con el índice correspondiente.
+
+Este ejemplo muestra cómo se puede almacenar una secuencia de valores del mismo tipo en un arreglo y cómo se pueden acceder a ellos. Los arreglos son muy útiles para almacenar grandes cantidades de datos y para realizar operaciones con ellos de manera eficiente.
+vuestro compañero amula-bo
+

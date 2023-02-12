@@ -1,0 +1,64 @@
+Las estructuras de control en el lenguaje C permiten controlar el flujo de ejecución de un programa, es decir, permiten decidir si un bloque de código se debe ejecutar o no, y en qué orden. Algunas de las estructuras de control más comunes en C son:
+
+1-Condicionales: if, if-else, switch, if else 
+
+2-Bucles: for, while, do-while
+
+Aquí hay algunos ejemplos de código que utilizan estructuras de control:
+
+
+int numero = 5;
+
+if (numero > 0) {
+  printf("El número es positivo\n");
+}
+
+for (int i = 0; i < 5; i++) {
+  printf("El valor de i es %d\n", i);
+}
+
+while (numero > 0) {
+  printf("El número es %d\n", numero);
+  numero--;
+}
+
+Como puedes ver, las estructuras de control permiten ejecutar un bloque de código de manera repetitiva o condicional, dependiendo de una o más condiciones.
+
+
+otro ejemplo seria  
+
+
+int dia = 4;
+
+switch (dia) {
+  case 1:
+    printf("Lunes\n");
+    break;
+  case 2:
+    printf("Martes\n");
+    break;
+  case 3:
+    printf("Miércoles\n");
+    break;
+  case 4:
+    printf("Jueves\n");
+    break;
+  case 5:
+    printf("Viernes\n");
+    break;
+  default:
+    printf("Fin de semana\n");
+}
+
+int i = 0;
+do {
+  printf("El valor de i es %d\n", i);
+  i++;
+} while (i < 5);
+
+
+En este ejemplo se utiliza la estructura switch para imprimir el nombre del día de la semana, y la estructura do-while para repetir un bloque de código mientras se cumpla una condición.
+
+
+espero que esto os ayude a entender que son las estructuras y como usarlas :D
+vuestro compañero amula-b

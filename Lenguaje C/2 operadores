@@ -1,0 +1,66 @@
+Los operadores son simbolos especiales en el lenguaje C que realizan operaciones matemáticas, de comparación o lógicas en expresiones. Algunos de los operadores más comunes en C son:
+
+1-Aritméticos: +, -, *, /, % (módulo)
+
+2-Comparación: ==, !=, >, <, >=, <=
+
+3-Lógicos: && (and), || (or), ! (not)
+
+4-Asignación: =, +=, -=, *=, /=
+
+5-Ternarios: ? :
+
+Aquí hay algunos ejemplos de código que utilizan operadores:
+
+
+int a = 5;
+int b = 2;
+int suma = a + b;
+int resta = a - b;
+bool esIgual = (a == b);
+bool esMayor = (a > b);
+
+
+os operadores se utilizan para realizar operaciones aritméticas, comparaciones y lógicas en variables y valores
+
+
+otro ejemplo seria :
+
+
+int x = 5;
+int y = 10;
+int resultado;
+
+resultado = x + y; // resultado será igual a 15
+resultado = x - y; // resultado será igual a -5
+resultado = x * y; // resultado será igual a 50
+resultado = y / x; // resultado será igual a 2
+resultado = y % x; // resultado será igual a 0
+
+bool esVerdadero = (x == 5); // esVerdadero será igual a true
+bool esFalso = (x > y); // esFalso será igual a false
+
+x += 2; // x será igual a 7
+x *= 3; // x será igual a 21
+
+En este ejemplo se utilizaron operadores aritméticos, de comparación y de asignación para manipular variables y realizar cálculos.
+
+Y por ultimo este ejemplo:
+
+
+int edad = 21;
+bool esMayorDeEdad = (edad >= 18); // esMayorDeEdad será igual a true
+
+int calificacion = 85;
+char resultado = (calificacion >= 60) ? 'P' : 'F'; // resultado será igual a 'P'
+
+bool esViernes = true;
+bool esFinDeSemana = false;
+bool puedoSalir = (esViernes || esFinDeSemana); // puedoSalir será igual a true
+ 
+
+En este ejemplo se utilizaron operadores ternarios y lógicos para determinar si una persona es mayor de edad, si un estudiante aprobó un examen y si una persona puede salir de casa dependiendo del día de la semana.
+
+
+espero que esto os ayude a no ahogaros y que podais seguir nandando en la piscina
+vuestro compañero amula-bo
