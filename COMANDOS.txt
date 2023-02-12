@@ -1,0 +1,59 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    COMANDOS                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: anttorre <anttorre@student.42malaga.com>   +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2023/02/03 21:33:53 by anttorre          #+#    #+#              #
+#    Updated: 2023/02/03 21:34:06 by anttorre         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+COMANDOS
+
+CAT
+cat nombre_archivo -> Mostrar contenido de un fichero
+
+TOUCH
+touch -t YYYYMMDDhhmm nombre_archivo -> Cambia el tiempo de modificado de un archivo 
+touch -ht YYYYMMDDhhmm nombre_archivo -> Cambia el tiempo de modificado de un archivo/directorio que sean enlaces y aparece un 2 despues de los permisos
+
+SSH
+ssh-keygen -> crea una clave publica y privada para sesiones de ssh
+
+LS
+ls -lmtp -> lista los archivos por orden de tiempo(t) los separa por coma(m) y les añade el slash al final de los directorios
+ls -la -> lista todos los archivos incluidos los ocultos
+ls */* -> lista todo de todo, carpetas y sus archivos
+
+GIT
+git log -5 --pretty="%H" -> para sacar los 5 ultimos hashes de los commit
+git status -> ver estado de archivos
+git ls-files -> listar los archivos del git que hay subidos
+git add archivo -> para añadir el archivo o "." para añadir todos
+git commit -m "Texto" -> guardar todo lo añadido con un comentario
+git push -> sube todo al repositorio
+git rm archivo -> borra del repositorio
+git ls-files --exclude-standard -io -> te lista los archivos ignorados por el archivo .gitignore
+
+PATCH
+patch a sw.diff -> actualiza 'a' luego renombrar a 'b'
+diff a b > sw.diff -> coge la diferencia y la pone en sw.diff que seria igual que el original sw.diff del comando anterior
+
+FIND
+find . -type f \( -name "*~" -or -name "#*#" \) -print -delete -> busca en el directorio actual los tipo ficheros que acaben con ~o acaben y empiecen por # y los borra
+
+MAGIC FILES
+archivo normal que contiene una declaracion que busca a partir del offset(caracter 41) una cadena '42' y sera llamado archivo 42-> 41	String 42	42 File
+
+VIM
+Fn-F1 o :Stdheader-> pone la header de 42
+:set number -> pone el numero de las filas
+:term -> abre una terminal
+Ctr+WW -> cambia de terminal al archivo o viceversa
+:w -> guarda
+:q -> salir
+:wq -> guardar y salir
+:x -> guardar y salir
+i -> para escribir texto
