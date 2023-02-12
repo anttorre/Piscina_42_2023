@@ -12,7 +12,7 @@
 
 //#include <stdio.h>
 
-int	ft_putstrlen(char *str)
+int	ft_strlen(char *str)
 {
 	int	i;
 
@@ -29,6 +29,6 @@ int	main(void)
 	char	*s;
 
 	s = "Prueba para el contador";
-	printf("La cadena es de %d bytes.\n", ft_putstrlen(s));
+	printf("La cadena es de %d bytes.\n", ft_strlen(s));
 }
 */
