@@ -23,3 +23,7 @@ int	main(void)
 	return (0);
 }
 */
+
+/*
+	Este programa escribe un caracter por pantalla
+*/
