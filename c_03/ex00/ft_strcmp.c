@@ -6,11 +6,11 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/16 11:56:04 by anttorre          #+#    #+#             */
-/*   Updated: 2023/02/18 17:59:37 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/02/20 13:10:36 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-//#include <stdio.h>
+#include <stdio.h>
 /*
 Compara 2 cadenas de caracteres mientras la primera sea 
 distinta de nulo y ademas el primer caracter

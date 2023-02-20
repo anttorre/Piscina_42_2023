@@ -6,12 +6,12 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/18 11:37:42 by anttorre          #+#    #+#             */
-/*   Updated: 2023/02/20 10:09:37 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/02/20 17:41:02 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* #include <stdio.h>
-#include <string.h> */
+#include <stdio.h>
+#include <string.h>
 
 char	*ft_strstr(char *str, char *to_find)
 {
@@ -19,6 +19,8 @@ char	*ft_strstr(char *str, char *to_find)
 	int	j;
 
 	i = 0;
+	if (str == NULL || to_find == NULL)
+		return (NULL);
 	if (to_find[i] == '\0')
 		return (str);
 	while (str[i] != '\0')
@@ -41,10 +43,9 @@ int	main(void)
 	char	*to_find;
 	char	*ptr;
 
-	str = "Fo Fo Bar Fo";
-	to_find = "";
+	str = "Fo Bar Fo";
+	to_find = "Bar";
 	ptr = ft_strstr(str, to_find);
 	//ptr = strstr(str, to_find);
 	printf("%s\n", ptr);
-}
-  */
+} */

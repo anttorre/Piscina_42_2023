@@ -6,12 +6,12 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/17 13:09:28 by anttorre          #+#    #+#             */
-/*   Updated: 2023/02/19 14:26:16 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/02/20 13:53:34 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* #include <stdio.h>
-#include <string.h> */
+#include <stdio.h>
+#include <string.h>
 
 int	ft_strlen(char *str)
 {
