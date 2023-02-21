@@ -6,7 +6,7 @@
 /*   By: anttorre <atormora@gmail.com>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 10:52:28 by anttorre          #+#    #+#             */
-/*   Updated: 2023/02/20 11:13:28 by anttorre         ###   ########.fr       */
+/*   Updated: 2023/02/21 11:22:22 by anttorre         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ void	ft_putnbr(int nb)
 		ft_putnbr(nb % 10);
 	}
 }
-
+/* 
 int	main(void)
 {
 	ft_putnbr(-2147483648);
@@ -52,3 +52,4 @@ int	main(void)
 	ft_putnbr(100);
 	return (0);
 }
+ */
